@@ -1,0 +1,52 @@
+/*	pale gold:		#C0B283
+	silk:			#DCD0C0
+	paper:			#F4F4F4
+	charcoal:		#373737  */
+
+
+body {
+  background-color: #DCD0C0;
+  text-align: center;
+  color: #373737;
+  font-weight: bold;
+}
+
+#circle {
+  position: relative;
+  background-color: #C0B283;
+  margin: 50px auto;
+  width: 250px;
+  height: 250px;
+  border-radius: 200px;
+}
+
+#name {
+  position: absolute;
+  font-size: 19px;
+  font-weight: bold;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#resume-link {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: lighter;
+}
+
+#bio-link, .text {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: lighter;
+
+}
+
+p {
+	padding-left: 40px;
+	padding-right: 40px;
+}
