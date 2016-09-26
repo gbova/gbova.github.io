@@ -1,8 +1,4 @@
-/*	pale gold:		#C0B283
-	silk:			#DCD0C0
-	paper:			#F4F4F4
-	charcoal:		#373737  */
-
+/*	Stylesheet for homepage and bio  */
 
 body {
   background-color: #DCD0C0;
@@ -49,4 +45,12 @@ body {
 p {
 	padding-left: 40px;
 	padding-right: 40px;
+}
+
+#selfie {
+  position: absolute;
+  padding-top: 5%;
+  padding-left: 36%;
+  /*height: 100px;*/
+  /*width: 50px;*/
 }
