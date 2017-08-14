@@ -1,78 +1,20 @@
-<!DOCTYPE html><html><head><meta charset="UTF-8">
-<title>Resume</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/angular_material/1.1.0-rc2/angular-material.min.css">
-<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
-<link href="https://fonts.googleapis.com/css?family=Raleway:500,200,700" rel="stylesheet">
-<link rel="stylesheet" type="text/css" href="resume.css">
-<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular.min.js"></script>
-<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-animate.min.js"></script>
-<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-aria.min.js"></script>
-<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-messages.min.js"></script>
-<script src="http://ajax.googleapis.com/ajax/libs/angular_material/1.1.0-rc2/angular-material.min.js"></script>
-<script src="resume.js"></script>
+<!DOCTYPE html>
 
-</head><body ng-app="Resume" ng-cloak="">
-    <resume>
-        <resume-heading first-name="Gabriella" last-name="Bova" linkedin="gabriellabova" github="gbova" email="gabriella.a.bova@gmail.com">
-        </resume-heading>
+<!-- <html> -->
+<html lang="en"> 
+<head>
+	<title> Bova's Homepage </title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="home_style.css" />
+</head>
 
-            <resume-column flex="800">
-                <category name="Education">
-                    <category-item title="Tufts University" date="Expected December 2017" subtitle="Computer Science and Environmental Studies">
-                        <li>Algorithms | Data Structures | Web Development | Wearable Devices | Discrete Math Programming Languages | Machine Structures and Assembly Programming</li>
-                        <li>Women in Computer Science (Member and Mentor)</li>
-                        <li>IGC Sexual Assult Prevention Task Force (Representative)</li>
-                        <li>Middle Eastern Dance Team</li>
-                        <li>IGC Sexual Assult Prevention Task Force (Representative)</li>
-                        <li>Listen To Your Heart (Wearable Devices Final Project)</li>
-                            <ul>
-                                <li>Front end lead for an iOS app that plays music based on the user’s heartrate</li>
-                                <li>Wrote Arduino code to detect and transmit the user’s heartrate in a wearable devic</li>
-                            </ul>
-                    </category-item>
+<body>
+  <div id="circle">
+    <div id="name">Gabriella Bova</div>
+    <div id="resume-link"> <a href="resume.html"> See my resume</a> </div>
+    <div id="bio-link"> <a href="bio.html"> About me </a> </div>
+    <div id="selfie"> <img src="selfie.jpg" alt="Smiley face" height="70" width="70"> </div>
+  </div>
 
-                    <category-item title="Aquincum Institue of Technology" date="January 2016 - May 2016" subtitle="Computer Science">
-                        <li>Study abroad at a technical institute in Budapest, Hungary</li>
-                        <li>Mobile Development | UI Design | Computational Theory</li>
-                    </category-item>
-                </category>
-
-                <category name="Skills">
-                    <skill-item spoken="Spanish (beginner) | Italian (basic comprehension)" languages="C | C++| Swift | Python | Java | Arduino | Javascript" technologies="Git | Xcode | Android Studio | HTML/CSS | ElasticSearch">
-                    </skill-item>
-                </category>
-
-                <category name="Software Experience">
-                    <category-item title="Software Engineering Intern" date="June 2017 - August 2017" subtitle="Wayfair">
-                        <li>Designed and implemented an Xcode logging framework for debugging and analytics</li>
-                        <li>Refactored the web service and wrote a method to send multiple web request</li>
-                        <li>Worked with a team of seven iOS architects to stabilize the iOS and deploy biweekly releases</li>
-                    </category-item>
-
-                    <category-item title="Software Engineering Intern" date="May 2016 - August 2016" subtitle="CrowdComfort">
-                        <li>Designed and created the login page, notifications page, and facility report page on the new manager app, now on Apple's App Store</li>
-                        <li>Developed three new features on the end user mobile app, now on the App Store</li>
-                    </category-item>
-
-                    <category-item title="Backend Engineer" date="January 2016 - December 2016" subtitle="Acenna Data">
-                        <li>Extracted and parsed research from NIH, PubMed Central, and ClinicalTrials</li>
-                        <li>Created flexible, searchable documents with ElasticSearch</li>
-                        <li>Optimized the process for loading and parsing XML documents</li>
-                    </category-item>
-                </category>
-
-                <category name="Additional Work Experience">
-                    <category-item title="Teaching Assistant" date="January 2016 - Current" subtitle="Tufts University Computer Science Department">
-                        <li>Tutor students in data structures and algorithms in weekly office hours</li>
-                        <li>Grade assignments and projects</li>
-                    </category-item>
-
-                    <category-item title="English Teacher" date="August 2015" subtitle="Language Assistant of Samara Oblast, Russia">
-                        <li>Taught English to a group of 15 children preparing for the Cambridge English Exam</li>
-                        <li>Created lessons plans, supervised the campers, and led activities and games</li>
-                    </category-item>
-                </category>
-            </resume-column>
-    </resume>
-</body></html>
+</body>
+</html>
