@@ -1,20 +1,77 @@
-<!DOCTYPE html>
+<!DOCTYPE html><html><head><meta charset="UTF-8">
+<title>Resume</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/angular_material/1.1.0-rc2/angular-material.min.css">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=Raleway:500,200,700" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="resume.css">
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-animate.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-aria.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-messages.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.0-rc2/angular-material.min.js"></script>
+<script src="resume.js"></script>
 
-<!-- <html> -->
-<html lang="en"> 
-<head>
-	<title> Bova's Homepage </title>
-	<meta charset="UTF-8">
-	<link rel="stylesheet" href="home_style.css" />
-</head>
+</head><body ng-app="Resume" ng-cloak="">
+    <resume>
+        <resume-heading first-name="Gabriella" last-name="Bova" linkedin="gabriellabova" github="gbova" email="gabriella.a.bova@gmail.com">
+        </resume-heading>
 
-<body>
-  <div id="circle">
-    <div id="name">Gabriella Bova</div>
-    <div id="resume-link"> <a href="resume.html"> See my resume</a> </div>
-    <div id="bio-link"> <a href="bio.html"> About me </a> </div>
-    <div id="selfie"> <img src="selfie.jpg" alt="Smiley face" height="70" width="70"> </div>
-  </div>
+            <resume-column flex="800">
+                <category name="Education">
+                    <category-item title="Tufts University" date="December 2017" subtitle="B.A. Computer Science and Environmental Studies">
+                    	<li>Bachelors of Science in Computer Science</li>
+                    	<li>Bachelors of Arts in Environmental Studies</li>
+                        <li>Web Development | Concurrent Programming | Wearable Devices | Courses relevant to the position</li>
+                        <li>Middle Eastern Dance Team, Treasurer</li>
+                        <li>Women in Computer Science</li>
+                        <li>IGC Sexual Assult Prevention Task Force</li>
+                    </category-item>
 
-</body>
-</html>
+                    <category-item title="Aquincum Institue of Technology" date="January 2016 - May 2016" subtitle="Computer Science">
+                        <li>Study abroad at a technical institute in Budapest, Hungary</li>
+                        <li>Mobile Development | UI Design | Computational Theory</li>
+                    </category-item>
+                </category>
+
+                <category name="Professional Experience">
+                	<category-item title="Full Stack Software Engineer" date="January 2018 - Present" subtitle="Dimagi, Inc.">
+                        <li>Designed and implemented an Enterprise Billing structure</li>
+                    </category-item>
+
+                    <category-item title="Software Engineering Intern" date="June 2017 - August 2017" subtitle="Wayfair">
+                        <li>Designed and implemented an Xcode logging framework for debugging and analytics</li>
+                        <li>Refactored the web service and wrote a method to send multiple web request</li>
+                        <li>Worked with a team of seven iOS architects to stabilize the iOS app and deploy biweekly releases</li>
+                    </category-item>
+
+                    <category-item title="Software Engineering Intern" date="May 2016 - August 2016" subtitle="CrowdComfort">
+                        <li>Designed and created the login page, notifications page, and facility report page on the new manager app, now on Apple's App Store</li>
+                        <li>Developed three new features on the end user mobile app, now on the App Store</li>
+                    </category-item>
+
+                    <category-item title="Backend Engineer" date="January 2016 - December 2016" subtitle="Acenna Data">
+                        <li>Extracted and parsed research from NIH, PubMed Central, and ClinicalTrials</li>
+                        <li>Created flexible, searchable documents with ElasticSearch</li>
+                        <li>Optimized the process for loading and parsing XML documents</li>
+                    </category-item>
+
+                    <category-item title="Teaching Assistant" date="January 2016 - December 2016" subtitle="Tufts University Computer Science Department">
+                        <li>Tutored students in data structures and algorithms in weekly office hours</li>
+                    </category-item>
+                </category>
+
+                <category name="Projects">
+                	<category-item title="Listen to Your Heart" subtitle="Wearable Devices Final Project">
+                		<li>Front end lead for iOS app that plays music based on the user's heartrate</li>
+                		<li>Wrote Arduino code to detect and transmit the user's hearrate from a wearable device</li>
+                	</category-item>
+                </category>
+
+                <category name="Skills">
+                    <skill-item spoken="Spanish (beginner) | Italian (basic comprehension)" languages="C | C++| Swift | Python | Javascript" technologies="Git | Xcode | Android Studio | HTML/CSS">
+                    </skill-item>
+                </category>
+            </resume-column>
+    </resume>
+</body></html>
