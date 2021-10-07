@@ -127,3 +127,12 @@ category:last-of-type category-item:last-of-type .category {
   padding-bottom: 0 !important;
   margin-bottom: 0 !important;
 }
+
+/* CSS for About Me section: */
+.about {
+  display: inline;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 0px;
+}
+
